@@ -1,0 +1,345 @@
+
+/* Navbar */
+.navbar{
+    background-color: #A3DE83;
+    
+    
+}
+.navbar .container{
+    width: 70%;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-family: 'Shrikhand', cursive;
+}
+.img-boy{
+    width: 45px;
+}
+.brand1{
+  text-align: center;
+  font-size: 25px;
+}
+.nav-item {
+   font-weight: bold;
+    font-size: 23px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.nav-item .active{
+    background-color: #FEFFE4;  
+}
+li:hover{
+    background-color: #FEFFE4;
+}
+/* main */
+.main{
+    background-image: url(https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y29sb3IlMjBwZW5jaWx8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80);
+    height: 650px;
+}
+.boys {
+    width: 580px;
+    margin-top: 140px;
+    margin-left: 190px;
+}
+.cont-img{
+    float: right;
+    position: absolute;
+}
+.fade {
+    transition: all .5s ease-in-out;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 3s;
+    animation-name: fade;
+    animation-duration: 3s;
+  }
+  
+  @-webkit-keyframes fade {
+    0% {opacity: 0
+    }
+    
+    50%{
+      opacity: .5;
+    }
+    100% {opacity: 1}
+  }
+  
+  @keyframes fade {
+    0% {opacity: 0
+    }
+    
+    50%{
+      opacity: .5;
+    }
+    100% {opacity: 1}
+  }
+  
+  .slideLeft1{
+    -webkit-animation-name: slideleft;
+    -webkit-animation-duration: 2.2s;
+    animation-name: slideleft;
+    animation-duration: 2.2s;
+    
+  }
+/* .cont-img img{
+    width: 580px;
+    margin-top: 140px;
+    margin-left: 45px;
+} */
+.cont-img img{
+    width: 500px;
+   
+}
+.fade{
+    display: none;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    0% {opacity: 0;
+        display: block;
+    }
+    
+    50%{
+      opacity: .5;
+    }
+    100% {opacity: 1}
+  }
+  
+
+/* ourActivities */
+.ourActivities{
+    text-align: center;
+    padding: 7%;
+    
+}
+.ourActivities h2{
+margin-bottom: 5%;
+color: #FA4659;
+font-family: 'Knewave', cursive;
+font-size: 3rem;
+} 
+.ativitie{
+    padding: 7% 3%;
+    margin: -1%;
+    background-color: #A3DE83;
+    border-radius: 10%;
+    
+} 
+.ativitie:hover{
+    box-shadow: 5px 4px 5px #f17493;
+}
+.activit-icon{
+    width: 130px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    margin: auto;
+}
+.activit-icon img{
+    width: 77px;
+    height: 98px;
+}
+.num-icon{
+    width: 120px;
+}
+.ativitie img{
+    border-radius: 60%;
+    width: 35%;
+}
+.number{
+    background-color: #2EB872;
+    z-index: 1;
+}
+.about-us{
+    padding: 7% 15%;
+    background-color: #A3DE83;
+    text-align: left;
+}
+.about-us .container h1{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #180305; 
+}
+.about-prag{
+    font-size: 1.2rem;
+}
+footer{
+    padding:3% 5%;
+}
+/* number % letters page */
+.letters{
+    padding: 7% 15%;
+    text-align: center;
+}
+.head-letters{
+margin-bottom: 5%;
+color: #FA4659;
+font-family: 'Knewave', cursive;
+font-size: 3rem;
+text-shadow: 3px 3px 3px rgb(122, 121, 121);
+}
+.letter-des{
+    color: rgb(143, 141, 141);
+    text-shadow: 1px 3px 1px rgb(224, 222, 222);
+}
+.letter{
+ margin: 8px;
+ border-radius: 10%;
+ font-size: 5.5rem;
+ background-color: #FCFFA6;
+ border: 6px solid #2EB872;
+ color: #FA4659;
+ font-family: 'Shrikhand', cursive;
+}
+.A:hover{
+  box-shadow: 6px 3px 6px silver;
+}
+.B:hover{
+    box-shadow: 6px 3px 6px silver;
+}
+.C:hover{
+    box-shadow: 6px 3px 6px silver;
+}
+.D:hover{
+    box-shadow: 6px 3px 6px silver;
+}
+.E:hover{
+box-shadow: 6px 3px 6px silver;
+}
+.F:hover{
+box-shadow: 6px 3px 6px #F2BB7B;
+ }
+.G:hover{
+box-shadow: 6px 3px 6px #F2BB7B;  
+}
+.H:hover{
+box-shadow: 6px 3px 6px #F2BB7B; 
+}
+.I:hover{
+box-shadow: 6px 3px 6px #F2BB7B;    
+}
+.J:hover{
+box-shadow: 6px 3px 6px #F2BB7B;   
+}
+.K:hover{
+    box-shadow: 6px 3px 6px silver;  
+}
+.L:hover{
+    box-shadow: 6px 3px 6px silver; 
+}
+.M:hover{
+    box-shadow: 6px 3px 6px silver;
+}
+.N:hover{
+    box-shadow: 6px 3px 6px silver;
+}
+.O:hover{
+    box-shadow: 6px 3px 6px silver;
+}
+.P:hover{
+    box-shadow: 6px 3px 6px #F2BB7B; 
+}
+.Q:hover{
+    box-shadow: 6px 3px 6px #F2BB7B; 
+}
+.R:hover{
+    box-shadow: 6px 3px 6px #F2BB7B; 
+}
+.S:hover{
+    box-shadow: 6px 3px 6px #F2BB7B; 
+}
+.T:hover{
+    box-shadow: 6px 3px 6px #F2BB7B;
+}
+.U:hover{
+    box-shadow: 6px 3px 6px silver;   
+}
+.V:hover{
+    box-shadow: 6px 3px 6px silver; 
+}
+.W:hover{
+    box-shadow: 6px 3px 6px silver;   
+}
+.X:hover{
+    box-shadow: 6px 3px 6px silver;  
+}
+.Y:hover{
+    box-shadow: 6px 3px 6px silver;  
+}
+.Z:hover{
+box-shadow: 6px 3px 6px #F2BB7B;  
+}
+
+.numbers{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #b5e29c;
+    border: 6px solid #F9D5A7;
+}
+.numb{
+    margin: 8px;
+    border-radius: 10%;
+    font-size: 5.5rem;
+    background-color: #FCFFA6;
+    border: 6px solid #2EB872;
+    color: #FA4659;
+    font-family: 'Shrikhand', cursive; 
+}
+.pressed{
+    box-shadow: #FA4659 5px 5px 5px;
+    opacity: 0.8;
+}
+
+.songs{
+    padding: 7% 15%;
+    text-align: center;
+}
+.song-div{
+    background-color: #FCFFA6;
+    padding: 3% 3%;
+    margin: 2% 2%;
+    border-radius: 10%;
+}
+.head-song{
+    color: #FA4659;
+    font-family: 'Knewave', cursive;
+}
+.resoure{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #b5e29c;
+    border: 6px solid #F9D5A7;
+}
+.resoure img{
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+}
+.card-resour{
+    padding: 3% 3%;
+}
+.parg-resours{
+    padding: 2% 2%;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    color: rgb(54, 54, 54);
+}
+.quiz{
+    padding: 7% 15%;
+}
+.quiz-sect{
+    background-color: #b5e29c;
+    border: 6px solid #F9D5A7;
+    text-align: center;
+    padding: 4%;
+}
+.quiz-sect img{
+width: 400px;
+height: 300px;
+padding: 3% ;
+}
+.quiz-sect h1{
+color: white;
+font-size: 3rem;
+text-shadow: 3px 3px 3px rgb(122, 121, 121);
+}
