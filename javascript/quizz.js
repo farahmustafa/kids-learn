@@ -82,18 +82,5 @@ function addQustionContent(){
     }  
 }
 addQustionContent();
-ansTrue.addEventListener("click",function(){
-    addQustionContent();
-});
-
-ansFalse.addEventListener("click",function(){
-    addQustionContent();
-});
-
-function checkAnswer(){
- if(ansTrue){
-     score++;
- }
-}
 
 
